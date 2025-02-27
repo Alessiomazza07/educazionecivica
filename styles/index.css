@@ -1,1 +1,9 @@
 @import url("layout.css");
+div.hero-section {
+    background: url(../img/hero.jpg) no-repeat center center/cover;
+    margin: 12% 7%;
+    font-size: 1.5rem;
+    text-align: end;
+    color: var(--text-color-warm);
+    font-family: none;
+}
