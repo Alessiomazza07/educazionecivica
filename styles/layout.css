@@ -164,6 +164,9 @@ nav {
     flex-direction: column;
     justify-items: center;
 }
+.footer-generale .social h3{
+    font-size: 1.3rem;
+}
 .footer-generale .social a{
     margin-top: 0.75rem;
     width: fit-content;
@@ -184,6 +187,7 @@ nav {
     justify-items: center;
 }
 .footer-generale .contatti h2{
+    font-size: 1.3rem;
     width: fit-content;
     margin-bottom: 1rem;
 }
