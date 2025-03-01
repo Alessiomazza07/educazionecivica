@@ -6,9 +6,23 @@ div.hero-section {
     color: var(--text-color-warm);
     font-family: none;
     text-align: end;
-    padding: 8rem 3rem 15rem 3rem;
+    padding: 6rem 3rem 15rem 3rem;
 }
-div.hero-section h1 {
+div.hero-section h1.quote {
     font-size: 2rem;
     width: fit-content;
+}
+div.hero-section h1.title {
+    font-size: 2.5rem;
+    width: fit-content;
+    justify-self: center;
+    margin-bottom: 1.5rem;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    margin: auto 0;
+}
+.container .paragrafo2 img{
+    margin: 1rem auto;
 }
