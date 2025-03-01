@@ -1,13 +1,15 @@
 @import url("layout.css");
 div.hero-section {
     background: url(../images/hero-image.jpg) no-repeat center;
-    margin: 12% 7%;
+    margin: 0;
     font-size: 1rem;
     color: var(--text-color-warm);
     font-family: none;
     text-align: end;
+    padding: 8rem 5rem 15rem 1rem;
 }
 div.hero-section h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     width: fit-content;
+    font-size: small;
 }

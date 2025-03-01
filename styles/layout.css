@@ -17,7 +17,7 @@
 body{
     min-height: 100vh;
     background: var(--primary-color-2);
-    padding: 6rem 0;
+    padding: 4rem 0 0;
 }
 /*header*/
 .header-generale {
@@ -124,9 +124,19 @@ nav {
 }
 /*footer*/
 .footer-generale {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    width: 100%;
+    background-color: var(--primary-color-1);
+    display: grid;
+    display: grid;
+    grid-template-columns: 25% 30% 30%;
+    grid-template-rows: 70% 15% 15%;
+    column-gap: 5%;
+    padding: 1rem 1rem 0;
+    justify-content: space-around;
+    color: var(--text-color-warm);
+}
+.footer-generale div+p{
+    margin: 100%;
     width: 100%;
     background-color: var(--primary-color-1);
     z-index: 100;
@@ -134,5 +144,12 @@ nav {
     padding: 1rem 1rem 0;
     justify-content: space-around;
     color: var(--text-color-warm);
-    
+}
+.footer-generale .indirizzo+p{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.footer-generale div{
+    color: var(--text-color-warm);
+    text-decoration: none;
 }
