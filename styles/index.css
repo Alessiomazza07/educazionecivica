@@ -32,7 +32,7 @@ div.hero-section h1.title {
 .container .paragrafo3 h2{
     width: fit-content;
     margin: 0 0 1rem;
-    justify-items: center;
+    justify-self: center;
     font-size: 2rem;
 }
 #logo-edustrada{
