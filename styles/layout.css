@@ -137,17 +137,6 @@ nav {
     justify-content: space-around;
     color: var(--text-color-warm);
 }
-.footer-generale div+p{
-    margin: 100%;
-    width: 100%;
-    background-color: var(--primary-color-1);
-    z-index: 100;
-    display: flex;
-    padding: 1rem 1rem 0;
-    justify-content: space-around;
-    color: var(--text-color-warm);
-    text-align: center;
-}
 .footer-generale a{
     color: var(--text-color-warm);
     text-decoration: none;
@@ -161,6 +150,10 @@ nav {
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
+}
+.footer-generale .diritti p{
+    text-align: center;
+    width: fit-content;
 }
 .footer-generale .social{
     display: flex;
