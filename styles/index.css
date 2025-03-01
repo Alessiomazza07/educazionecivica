@@ -13,17 +13,18 @@ div.hero-section h1.quote {
     width: fit-content;
 }
 div.hero-section h1.title {
-    font-size: 2.5rem;
+    font-size: 4rem;
     width: fit-content;
     justify-self: center;
     margin-bottom: 1.5rem;
-    line-height: 1.4;
 }
 .container{
     margin: 2rem 0;
     display: flex;
     flex-direction:column;
     padding: 0 10%;
+    font-size: 1.2rem;
+    line-height: 1.4;
 }
 .container .paragrafo2 img{
     margin: 1rem auto;
@@ -33,8 +34,8 @@ div.hero-section h1.title {
     margin: 0 2rem 2rem;
 }
 #edustrada{
-    width: 90%;
-    margin: 2rem 2rem 0;
+    width: 75%;
+    margin: 2rem 5rem 0;
 }
 .container div{
     background-color: var(--primary-color-1);
