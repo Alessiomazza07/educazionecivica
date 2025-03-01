@@ -13,6 +13,7 @@
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 103%;
+    color: var(--text-color-warm);
 }
 body{
     min-height: 100vh;
