@@ -123,7 +123,7 @@ nav {
     }
 }
 /*footer*/
-.header-generale {
+.footer-generale {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -133,4 +133,6 @@ nav {
     display: flex;
     padding: 1rem 1rem 0;
     justify-content: space-around;
+    color: var(--text-color-warm);
+    
 }
