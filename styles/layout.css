@@ -17,6 +17,7 @@
 body{
     min-height: 100vh;
     background: var(--primary-color-2);
+    padding: 6rem 0;
 }
 /*header*/
 .header-generale {
@@ -122,3 +123,14 @@ nav {
     }
 }
 /*footer*/
+.header-generale {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color-1);
+    z-index: 100;
+    display: flex;
+    padding: 1rem 1rem 0;
+    justify-content: space-around;
+}
