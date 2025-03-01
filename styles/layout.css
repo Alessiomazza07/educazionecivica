@@ -123,15 +123,17 @@ nav {
     }
 }
 /*footer*/
+
 .footer-generale {
     width: 100%;
+    height: 15rem;
     background-color: var(--primary-color-1);
     display: grid;
-    display: grid;
-    grid-template-columns: 25% 30% 30%;
-    grid-template-rows: 70% 15% 15%;
+    grid-template-columns: 25% 35% 20%;
+    grid-template-rows: 50% 15% 15%;
     column-gap: 5%;
-    padding: 1rem 1rem 0;
+    row-gap: 5%;
+    padding: 2rem 1rem 0;
     justify-content: space-around;
     color: var(--text-color-warm);
 }
@@ -144,12 +146,34 @@ nav {
     padding: 1rem 1rem 0;
     justify-content: space-around;
     color: var(--text-color-warm);
+    text-align: center;
 }
-.footer-generale .indirizzo+p{
+.footer-generale a{
+    color: var(--text-color-warm);
+    text-decoration: none;
+}
+.footer-generale .indirizzo{
+    text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
 }
-.footer-generale div{
-    color: var(--text-color-warm);
-    text-decoration: none;
+.footer-generale .diritti{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.footer-generale .social{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+.footer-generale .social a{
+    margin-top: 0.75rem;
+}
+.footer-generale .logo{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+.footer-generale .contatti p{
+    margin-top: 1rem;
 }
