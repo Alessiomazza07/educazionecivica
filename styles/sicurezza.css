@@ -1,1 +1,91 @@
 @import url("layout.css");
+
+.title-section{
+    background: url(../images/sicurezza-stradale.jpg) no-repeat center;
+    margin: 0;
+    font-size: 1rem;
+    font-family: none;
+    text-align: center;
+    padding: 14rem 4rem 13rem;
+}
+div.title-section h1.title {
+    font-size: 5rem;
+    width: fit-content;
+    justify-self: center;
+}
+.container{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction:column;
+    padding: 0 10%;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.container div{
+    background-color: var(--primary-color-1);
+    padding: 3%;
+    border-radius: 12px;
+}
+.container .paragrafo2 ul{
+    margin: 1rem 2rem;
+}
+.container .paragrafo2 h2{
+    justify-self: center;
+    width: fit-content;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.container .paragrafo3 h2{
+    justify-self: center;
+    width: fit-content;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.container .paragrafo3 ul{
+    margin: 1rem 2rem;
+}
+
+hr{
+    margin: 2rem 0;
+}
+
+.faq-box{
+    width: fit-content;
+}
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.faq-label {
+    cursor: pointer;
+    transition: all 0.35s ease;
+}
+.faq-label::after {
+   content: '';
+   padding: 0.51rem;
+   transform: scale(1.8);
+   text-align: center;
+   transition: all 0.35s ease;
+}
+.faq-label:hover{
+    color: var(--action-color);
+}
+.faq-content {
+    color: var(--text-color-warm);
+    transition: all 1s;
+    display: none;
+}
+input:checked + .faq-label {
+    background: transparent;
+}
+input:checked + .faq-label::after {
+    content: '';
+    transform: scale(1.5);
+}
+input:checked ~ .faq-content {
+    max-height: 100vh;
+    padding: 1em;
+    display: block;
+    transition: all 0.35s;
+}

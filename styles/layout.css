@@ -63,11 +63,15 @@ nav {
     left: 50%; /* Mantiene la linea centrata */
     transform: translateX(-50%);
 }
-
 .pages a:hover {
     color: var(--action-color);
 }
-
+.pages a i {
+    transition: color 0.3s ease;
+}
+.pages a:hover i{
+    color: var(--action-color);
+}
 #sidebar-active {
     display: none;
 }
